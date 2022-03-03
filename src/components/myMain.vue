@@ -3,6 +3,7 @@
         <myJumbotron />
         <logoStrip />
         <cloudBased />
+        <specialityServices />
     </main>
 </template>
 
@@ -11,6 +12,7 @@
 import myJumbotron from './partials/myJumbotron.vue'
 import logoStrip from './partials/logoStrip.vue'
 import cloudBased from './partials/cloudBased.vue'
+import specialityServices from './partials/specialityServices.vue'
 export default {
 
     name: 'myMain',
@@ -18,7 +20,8 @@ export default {
     components:{
         myJumbotron,
         logoStrip,
-        cloudBased
+        cloudBased,
+        specialityServices
     }
 
 }

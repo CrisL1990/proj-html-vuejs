@@ -9,7 +9,7 @@
                 <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum et illo explicabo distinctio  nemo quidem, quae eos cum. Error!</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas distinctio quaerat repudiandae consequuntur a voluptatibus eum, eveniet voluptatum officia eligendi dignissimos?</p>
                
-                <button class="my-4">LEARN MORE</button>
+                <button class="my-4"> <span>LEARN MORE</span></button>
             </div>
 
             <div class="col d-flex justify-content-center align-items-start flex-column px-5">
@@ -49,6 +49,10 @@ export default {
         height: 500px;
         }
 
+        p{
+            color: $gray;
+            font-size: 13px;
+        }
         button{
             padding: $padding;
             width: 150px;
