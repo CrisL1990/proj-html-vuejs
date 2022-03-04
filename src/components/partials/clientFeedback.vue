@@ -81,14 +81,9 @@ export default {
     .clients{
         width: 100%;
          
-
         .client-feedback{
             border: solid $BlackHaze 1px;
         }
-
-         
-
-        
     }
 
 </style>

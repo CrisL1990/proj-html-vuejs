@@ -6,6 +6,7 @@
         <specialityServices />
         <makingImpact />
         <clientFeedback />
+        <getInTouch />
     </main>
 </template>
 
@@ -17,6 +18,7 @@ import cloudBased from './partials/cloudBased.vue'
 import specialityServices from './partials/specialityServices.vue'
 import makingImpact from './partials/makingImpact.vue'
 import clientFeedback from './partials/clientFeedback.vue'
+import getInTouch from './partials/getInTouch.vue'
 export default {
 
     name: 'myMain',
@@ -27,7 +29,8 @@ export default {
         cloudBased,
         specialityServices,
         makingImpact,
-        clientFeedback
+        clientFeedback,
+        getInTouch
     }
 
 }
