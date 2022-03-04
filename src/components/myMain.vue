@@ -5,6 +5,7 @@
         <cloudBased />
         <specialityServices />
         <makingImpact />
+        <clientFeedback />
     </main>
 </template>
 
@@ -15,6 +16,7 @@ import logoStrip from './partials/logoStrip.vue'
 import cloudBased from './partials/cloudBased.vue'
 import specialityServices from './partials/specialityServices.vue'
 import makingImpact from './partials/makingImpact.vue'
+import clientFeedback from './partials/clientFeedback.vue'
 export default {
 
     name: 'myMain',
@@ -24,7 +26,8 @@ export default {
         logoStrip,
         cloudBased,
         specialityServices,
-        makingImpact
+        makingImpact,
+        clientFeedback
     }
 
 }
