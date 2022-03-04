@@ -1,16 +1,13 @@
 <template>
     
         <section class="talk d-flex flex-column justify-content-center align-items-center">
-
             <div class="wrapper text-center">
                 <h1>Ready to talk?</h1>
                 <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente eius incidunt natus delectus saepe perferendis fuga.!</p>
                 <button><a href="#">LET'S TALK</a></button>
-            </div>
-            
+            </div>   
         </section>
-    
-    
+
 </template>
 
 <script>
@@ -25,10 +22,7 @@ export default {
     @import '../../assets/style/roundedButton.scss';
     @import '../../assets/style/colorPalette.scss';
 
-    
-    
     .talk{
-        width: 100%;
         height: 350px;
         background-image: url('../../assets/img/ready_to_talk_cta_bg.jpg');
         background-size: cover;
