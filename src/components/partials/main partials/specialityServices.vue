@@ -12,18 +12,7 @@
                     v-for="(card, index) in cards" :key="index" 
                     :cardInfo="card"
                     />
-                    <!--
-                    <div class="single-card text-center my-5">
-                        
-                        <i class="fa-solid fa-globe my-3"></i>
-                            
-                        <h5>Small Business Loans</h5>
-
-                        <p class="my-2 mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sed corrupti pariatur, magnam quibusdam error excepturi nostrum at.</p>
-
-                        <button><a href="#">LEARN MORE</a></button>
-                    </div>  
-                    -->
+                    
                 </div>
             </section>
         </div>

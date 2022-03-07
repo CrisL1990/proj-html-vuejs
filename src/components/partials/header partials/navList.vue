@@ -1,10 +1,21 @@
 <template>
     <nav>
         <ul class="d-flex align-items-center">
-            <li v-for="(voice, index) in menuVoices" :key="index">
-                <a class="active" v-if="voice.link == 'SERVICES'" href="#">{{voice.link}} <i class="fa-solid fa-chevron-down ms-2"></i></a>
-                <a class="active" v-else-if="voice.link != 'CONTACT'" href="#">{{voice.link}}</a>
-                <button v-else><a href="#">{{voice.link}}</a></button>
+            <li class="d-flex align-items-center" v-for="(voice, index) in menuVoices" :key="index">
+
+                <a class="active d-flex align-items-center justify-content-center" 
+                v-if="voice.link == 'SERVICES'" href="#">{{voice.link}} 
+                    <i class="fa-solid fa-chevron-down ms-2"></i>
+                </a>
+
+                <a class="active d-flex align-items-center justify-content-center" 
+                v-else-if="voice.link != 'CONTACT'" href="#">
+                    {{voice.link}}
+                </a>
+                
+                <button v-else>
+                    <a href="#" class="d-flex align-items-center justify-content-center">{{voice.link}}</a>
+                </button>
             </li>
         </ul>
     </nav>
@@ -36,16 +47,12 @@ export default {
             margin-bottom: 0;
 
             li{
-                display: flex;
                 margin: 0 10px;
                 font-family: 'Roboto', sans-serif;
                 font-weight: 500;
                 height: 100%;
-                align-items: center;
-
+          
                 &:hover{
-                    
-
                     .active{
                         color: $Shark;
                         background-color: $BlackHaze;
@@ -59,9 +66,9 @@ export default {
                     width: 120px;
                     height: 40px;
                     background-color: $Water;
+
                     a{
-                        color: white;
-                        
+                        color: $BlackHaze;
                     }
                 }
 
@@ -70,9 +77,6 @@ export default {
                     color: $gray;
                     font-size: 13px;
                     height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
                     padding: 0 10px;
 
                     i{

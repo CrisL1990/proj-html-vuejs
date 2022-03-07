@@ -24,7 +24,7 @@ export default {
     @import '../../../assets/style/common.scss';
 
     .talk{
-        height: 350px;
+        height: 400px;
         background-image: url('../../../assets/img/ready_to_talk_cta_bg.jpg');
         background-size: cover;
 

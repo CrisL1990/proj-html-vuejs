@@ -13,28 +13,9 @@
 
                 <boxPercentage v-for="(statistic, index) in statistics" :key="index"
                 class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5"
-                :statistics="statistic"/>
-                <!--
-                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
-                    <span>86%</span>
-                    <p>Succesful Applications</p>
-                </div>
+                :statistics="statistic"
+                />
 
-                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
-                    <span>94%</span>
-                    <p>Return On Investment</p>
-                </div>
-
-                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
-                    <span>92%</span>
-                    <p>Applied Solutions</p>
-                </div>
-
-                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
-                    <span>100%</span>
-                    <p>Completely Secure</p>
-                </div>  
-                -->
             </div>
         
         </div>
@@ -110,9 +91,7 @@
                 .box{
                     height: 100%;
                     width: 50%;
-                    float: left;
-
-                    
+                    float: left; 
                 }
             }
         }
@@ -126,6 +105,7 @@
             font-weight: bold;
             border: none;
             font-size: $button-font-zize;
+            
             a{
                 text-decoration: none;
                 color: $White;

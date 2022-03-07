@@ -50,7 +50,6 @@ export default {
     @import '../../../assets/style/colorPalette.scss';
     @import '../../../assets/style/common.scss';
     
-
     .footer-bottom{
         height: 100px;
         background-color: $Shark;

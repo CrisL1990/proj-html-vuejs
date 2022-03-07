@@ -3,7 +3,7 @@
 
         <!--Inizio logo-->
         <div class="col-4 d-flex align-items-center px-5 img-cont">
-            <img src="../assets/img/finance_logo_1x.png" alt="">
+            <a href="#"><img src="../assets/img/finance_logo_1x.png" alt=""></a> 
         </div>
         <!--Fine logo-->
 
@@ -87,7 +87,7 @@ export default {
         //Setta dimensione logo
         .img-cont{
             img{
-                width: 50%;
+                width: 75%;
             }
         }
     }
