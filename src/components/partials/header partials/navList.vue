@@ -2,7 +2,8 @@
     <nav>
         <ul class="d-flex align-items-center">
             <li v-for="(voice, index) in menuVoices" :key="index">
-                <a class="active" v-if="voice.link != 'CONTACT'" href="#">{{voice.link}}</a>
+                <a class="active" v-if="voice.link == 'SERVICES'" href="#">{{voice.link}} <i class="fa-solid fa-chevron-down ms-1"></i></a>
+                <a class="active" v-else-if="voice.link != 'CONTACT'" href="#">{{voice.link}}</a>
                 <button v-else><a href="#">{{voice.link}}</a></button>
             </li>
         </ul>
@@ -28,6 +29,7 @@ export default {
 <style scoped lang='scss'> 
     @import '../../../assets/style/colorPalette.scss';
     @import '../../../assets/style/roundedButton.scss';
+    @import '../../../assets/style/common.scss';
 
     ul{
             height: 80px;
@@ -72,6 +74,10 @@ export default {
                     align-items: center;
                     justify-content: center;
                     padding: 0 10px;
+
+                    i{
+                        font-size: 10px;
+                    }
                     
                 }
             }
