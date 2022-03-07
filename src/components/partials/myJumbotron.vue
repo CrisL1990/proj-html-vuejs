@@ -27,6 +27,7 @@ export default {
 
         h1{
             color: $White;
+            font-size: 60px;
 
             span{
                 color: $Blue;

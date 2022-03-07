@@ -36,10 +36,12 @@ export default {
 
         h1{
             color: $White;
+            font-size: 55px;
         }
 
         p{
             color: $gray;
+            font-family: 'Frank Ruhl Libre', serif;
         }
 
         button{
@@ -48,6 +50,7 @@ export default {
             background-color: $Water;
             border: none;
             width: 150px;
+            font-size: $button-font-zize;
 
             a{
                 text-decoration: none;

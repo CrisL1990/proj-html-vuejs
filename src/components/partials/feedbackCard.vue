@@ -11,7 +11,7 @@
         </div>
                     
         <div class="client-name text-center">
-            <p class="name mt-3 py-3">{{cards.name}}</p>
+            <p class="name mt-3 py-2">{{cards.name}}</p>
             <p class="role pb-3">{{cards.role}}</p>
         </div>
     </div>
@@ -38,7 +38,7 @@ export default {
     }
 
     .review{
-        font-size: 13px;
+        font-size: 15px;
         color: $gray;
         font-family: 'Frank Ruhl Libre', serif;
     }
@@ -49,10 +49,13 @@ export default {
 
         .name{
             line-height: 5px;
+            font-size: 12px;
+            font-weight: bold;
         }
 
         .role{
             font-size: 10px;
+            color: $gray;
         }
     }  
 </style>

@@ -2,7 +2,7 @@
     <section class="impact d-flex justify-content-between">
         
         <div class="box-left d-flex flex-column justify-content-center px-5">
-            <span class="my-4">Investment Number</span>
+            <span class="my-4">Investment Numbers</span>
             <h1>Making An Impact In Our Communities</h1>
             <button class="my-4"> <a href="#">LEARN MORE</a> </button>
         </div>
@@ -12,12 +12,12 @@
             <div class="row row-cols-2 pt-5">
 
                 <div class="col box d-flex flex-column justify-content-center align-items-center">
-                    <h1>86%</h1>
+                    <span>86%</span>
                     <p>Succesful Applications</p>
                 </div>
 
                 <div class="col box d-flex flex-column justify-content-center align-items-center">
-                    <h1>94%</h1>
+                    <span>94%</span>
                     <p>Return On Investment</p>
                 </div>
 
@@ -26,12 +26,12 @@
             <div class="row row-cols-2 pb-5">
 
                 <div class="col box d-flex flex-column justify-content-center align-items-center">
-                    <h1>92%</h1>
+                    <span>92%</span>
                     <p>Applied Solutions</p>
                 </div>
 
                 <div class="col box d-flex flex-column justify-content-center align-items-center">
-                    <h1>100%</h1>
+                    <span>100%</span>
                     <p>Completely Secure</p>
                 </div>
 
@@ -77,12 +77,14 @@ export default {
 
                 .col{
 
-                    h1{
+                    span{
                         color: $icon;
+                        font-size:50px;
                     }
 
                     p{
-                        font-size: 10px;
+                        font-size: 12px;
+                        color: $gray;
                     }
                 }
             }
@@ -96,6 +98,7 @@ export default {
             background-color: $Water;
             font-weight: bold;
             border: none;
+            font-size: $button-font-zize;
 
             a{
                 text-decoration: none;

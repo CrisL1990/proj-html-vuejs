@@ -56,13 +56,14 @@ export default {
         }
         button{
             padding: $padding;
+            font-size: $button-font-zize;
             width: 150px;
             border-radius: $border-radius30;
             color: $White;
             background-color: $Water;
             font-weight: bold;
             border: none;
-        }
+        }   
     }
     
 

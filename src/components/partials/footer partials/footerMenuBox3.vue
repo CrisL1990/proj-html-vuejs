@@ -26,6 +26,7 @@ export default {
 <style scoped lang="scss">
     @import '../../../assets/style/colorPalette.scss';  
     @import '../../../assets/style/footerTopBox.scss';
+    @import '../../../assets/style/common.scss';
 
     .fa-twitter{
         color: $Blue;

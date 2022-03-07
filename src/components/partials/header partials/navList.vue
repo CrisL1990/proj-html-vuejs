@@ -36,7 +36,8 @@ export default {
             li{
                 display: flex;
                 margin: 0 10px;
-              
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
                 height: 100%;
                 align-items: center;
 

@@ -49,21 +49,21 @@ export default {
                     icon: 'fa-solid fa-globe my-3',
                     title: 'Small Business Loans',
                     par: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sed corrupti pariatur, magnam quibusdam error excepturi nostrum at.',
-                    button: 'LEARN MORE'
+                    button: 'Learn More'
                 },
 
                 {
                     icon: 'fa-regular fa-gem my-3',
                     title: 'Credit Rating Advice',
                     par: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sed corrupti pariatur, magnam quibusdam error excepturi nostrum at.',
-                    button: 'LEARN MORE'
+                    button: 'Learn More'
                 },
 
                 {
                     icon: 'fa-regular fa-chart-column my-3',
                     title: 'Fast Crowd Founding',
                     par: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sed corrupti pariatur, magnam quibusdam error excepturi nostrum at.',
-                    button: 'LEARN MORE'
+                    button: 'Learn More'
                 }
             ]
           
@@ -93,7 +93,8 @@ export default {
                 height: 650px;
 
                 .par{
-                    font-size: 15px;      
+                    font-size: 13px;   
+                    color: $gray;   
                 }
                 
                 .single-card{
