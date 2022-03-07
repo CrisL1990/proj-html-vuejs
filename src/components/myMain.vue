@@ -12,13 +12,13 @@
 
 <script>
 
-import myJumbotron from './partials/myJumbotron.vue'
-import logoStrip from './partials/logoStrip.vue'
-import cloudBased from './partials/cloudBased.vue'
-import specialityServices from './partials/specialityServices.vue'
-import makingImpact from './partials/makingImpact.vue'
-import clientFeedback from './partials/clientFeedback.vue'
-import getInTouch from './partials/getInTouch.vue'
+import myJumbotron from '../components/partials/main partials/myJumbotron.vue'
+import logoStrip from '../components/partials/main partials/logoStrip.vue'
+import cloudBased from '../components/partials/main partials/cloudBased.vue'
+import specialityServices from '../components/partials/main partials/specialityServices.vue'
+import makingImpact from '../components/partials/main partials/makingImpact.vue'
+import clientFeedback from '../components/partials/main partials/clientFeedback.vue'
+import getInTouch from '../components/partials/main partials/getInTouch.vue'
 export default {
 
     name: 'myMain',

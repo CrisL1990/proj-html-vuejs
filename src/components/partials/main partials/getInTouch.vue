@@ -19,17 +19,17 @@ export default {
 
 <style scoped lang="scss">
 
-    @import '../../assets/style/roundedButton.scss';
-    @import '../../assets/style/colorPalette.scss';
-    @import '../../assets/style/common.scss';
+    @import '../../../assets/style/roundedButton.scss';
+    @import '../../../assets/style/colorPalette.scss';
+    @import '../../../assets/style/common.scss';
 
     .talk{
         height: 350px;
-        background-image: url('../../assets/img/ready_to_talk_cta_bg.jpg');
+        background-image: url('../../../assets/img/ready_to_talk_cta_bg.jpg');
         background-size: cover;
 
         .wrapper{
-        width: 50%;
+        width: 40%;
         margin: auto;
         }
         

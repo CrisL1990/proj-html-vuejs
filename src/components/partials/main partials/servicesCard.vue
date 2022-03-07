@@ -20,9 +20,9 @@ export default {
 
 <style scoped lang="scss">
 
-    @import "../../assets/style/colorPalette.scss";
-    @import "../../assets/style/roundedButton.scss";
-    @import "../../assets/style/common.scss";
+    @import "../../../assets/style/colorPalette.scss";
+    @import "../../../assets/style/roundedButton.scss";
+    @import "../../../assets/style/common.scss";
 
     i{
         font-size: 50px;

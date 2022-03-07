@@ -32,28 +32,28 @@ export default {
             reviews:[
 
                 {
-                    logo: require("../../assets/img/client-logo-8-200x87.png"),
+                    logo: require("../../../assets/img/client-logo-8-200x87.png"),
                     text: '"Avada Finance offers a fantastic service! It is easy to use and the customer support is the best around. This payment option is my number one choice. I always recommend it"',
                     name: 'ANDREA MENDOZA',
                     role: 'CREATIVE MARKET'
                 },
 
                 {
-                    logo: require("../../assets/img/client-logo-1-1-200x87.png"),
+                    logo: require("../../../assets/img/client-logo-1-1-200x87.png"),
                     text: '"Avada Finance offers a fantastic service! It is easy to use and the customer support is the best around. This payment option is my number one choice. I always recommend it"',
                     name: 'ANDREA MENDOZA',
                     role: 'CREATIVE MARKET'
                 },
 
                 {
-                    logo: require("../../assets/img/client-logo-2-200x87.png"),
+                    logo: require("../../../assets/img/client-logo-2-200x87.png"),
                     text: '"Avada Finance offers a fantastic service! It is easy to use and the customer support is the best around. This payment option is my number one choice. I always recommend it"',
                     name: 'ANDREA MENDOZA',
                     role: 'CREATIVE MARKET'
                 },
 
                 {
-                    logo: require("../../assets/img/client-logo-3-200x87.png"),
+                    logo: require("../../../assets/img/client-logo-3-200x87.png"),
                     text: '"Avada Finance offers a fantastic service! It is easy to use and the customer support is the best around. This payment option is my number one choice. I always recommend it"',
                     name: 'ANDREA MENDOZA',
                     role: 'CREATIVE MARKET'
@@ -70,8 +70,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../../assets/style/colorPalette.scss';
-    @import '../../assets/style/common.scss';
+    @import '../../../assets/style/colorPalette.scss';
+    @import '../../../assets/style/common.scss';
 
     
     .feedback{

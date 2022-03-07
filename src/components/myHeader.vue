@@ -1,40 +1,18 @@
 <template>
     <header class="row">
 
+        <!--Inizio logo-->
         <div class="col-4 d-flex align-items-center px-5 img-cont">
             <img src="../assets/img/finance_logo_1x.png" alt="">
         </div>
+        <!--Fine logo-->
 
+        <!--Inizio Nav-->
         <div class="col-8 d-flex justify-content-end px-5 align-items-center">
-
             <navList :menuVoices="navVoices"/>
-            <!--
-            <ul class="d-flex align-items-center">
-                <li>
-                    <a href="#">HOME</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#">SERVICES</a>
-                </li>
-                <li>
-                    <a href="#">PACKAGES</a>
-                </li>
-                <li>
-                    <a href="#">INSIGHT</a>
-                </li>
-                <li>
-                    <button><a href="#">CONTACT</a></button>
-                </li>
-                <li>
-                    <a href="#">+</a>
-                </li>
-            </ul>
-            -->
         </div>
-        
+        <!--Fine Nav-->
+
     </header>
 </template>
 
@@ -51,6 +29,7 @@ export default {
     data(){
         return{
 
+            //Contiene la lista delle voci del nav
             navVoices:[
 
                 {
@@ -90,20 +69,23 @@ export default {
 
 <style scoped lang="scss">
 
+    //Importa settaggi per button e colori
     @import './../assets/style/colorPalette.scss';
     @import './../assets/style/roundedButton.scss';
 
     header{
 
+        //Setta dimensione Header
         height: 80px;
         width: 100%;
 
+        //Setta dimensione columns
         .col-4, .col-8{
             height: 100%;
         }
 
+        //Setta dimensione logo
         .img-cont{
-
             img{
                 width: 50%;
             }

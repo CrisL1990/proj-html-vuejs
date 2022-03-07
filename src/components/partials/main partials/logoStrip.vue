@@ -24,32 +24,32 @@ export default {
             logos:[
 
                 {
-                    filePath: require('../../assets/img/client-logo-7-200x87.png'),
+                    filePath: require('../../../assets/img/client-logo-7-200x87.png'),
                 
                 },
 
                 {
-                    filePath: require('../../assets/img/client-logo-8-200x87.png'),
+                    filePath: require('../../../assets/img/client-logo-8-200x87.png'),
           
                 },
 
                 {
-                    filePath: require('../../assets/img/client-logo-9-200x87.png'),
+                    filePath: require('../../../assets/img/client-logo-9-200x87.png'),
            
                 },
 
                 {
-                    filePath: require('../../assets/img/client-logo-5-200x87.png'),
+                    filePath: require('../../../assets/img/client-logo-5-200x87.png'),
                     
                 },
 
                 {
-                    filePath: require('../../assets/img/client-logo-6-200x87.png'),
+                    filePath: require('../../../assets/img/client-logo-6-200x87.png'),
                  
                 },
 
                 {
-                    filePath: require('../../assets/img/client-logo-7-200x87.png'),
+                    filePath: require('../../../assets/img/client-logo-7-200x87.png'),
                   
                 }
             ]
@@ -59,8 +59,8 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-     @import "../../assets/style/colorPalette.scss";
-     @import '../../assets/style/common.scss';
+     @import "../../../assets/style/colorPalette.scss";
+     @import '../../../assets/style/common.scss';
 
     .logoStrip{
         height: 150px;

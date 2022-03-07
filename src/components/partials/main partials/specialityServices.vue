@@ -53,14 +53,14 @@ export default {
                 },
 
                 {
-                    icon: 'fa-regular fa-gem my-3',
+                    icon: 'far fa-gem my-3',
                     title: 'Credit Rating Advice',
                     par: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sed corrupti pariatur, magnam quibusdam error excepturi nostrum at.',
                     button: 'Learn More'
                 },
 
                 {
-                    icon: 'fa-regular fa-chart-column my-3',
+                    icon: 'fa fa-chart-line my-3',
                     title: 'Fast Crowd Founding',
                     par: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sed corrupti pariatur, magnam quibusdam error excepturi nostrum at.',
                     button: 'Learn More'
@@ -80,7 +80,7 @@ export default {
 
 <style scoped lang="scss">
 
-    @import "../../assets/style/colorPalette.scss";
+    @import "../../../assets/style/colorPalette.scss";
 
     .section-cont{
         background-color: $BlackHaze;

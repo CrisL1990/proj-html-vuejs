@@ -14,11 +14,11 @@ export default {
 
 <style scoped lang="scss">
 
-    @import "../../assets/style/colorPalette.scss";
-    @import '../../assets/style/common.scss';
+    @import "../../../assets/style/colorPalette.scss";
+    @import '../../../assets/style/common.scss';
 
     .jumbotron{
-        background-image: url('../../assets/img/home_finance_slider_bg.jpg');
+        background-image: url('../../../assets/img/home_finance_slider_bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

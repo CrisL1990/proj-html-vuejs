@@ -2,7 +2,7 @@
     <nav>
         <ul class="d-flex align-items-center">
             <li v-for="(voice, index) in menuVoices" :key="index">
-                <a class="active" v-if="voice.link == 'SERVICES'" href="#">{{voice.link}} <i class="fa-solid fa-chevron-down ms-1"></i></a>
+                <a class="active" v-if="voice.link == 'SERVICES'" href="#">{{voice.link}} <i class="fa-solid fa-chevron-down ms-2"></i></a>
                 <a class="active" v-else-if="voice.link != 'CONTACT'" href="#">{{voice.link}}</a>
                 <button v-else><a href="#">{{voice.link}}</a></button>
             </li>

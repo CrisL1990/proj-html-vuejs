@@ -13,7 +13,7 @@
             </div>
 
             <div class="col d-flex justify-content-center align-items-start flex-column px-5">
-                <img src="../../assets/img/graph-600x457.jpg" alt="">
+                <img src="../../../assets/img/graph-600x457.jpg" alt="">
             </div>
 
         </section>
@@ -37,9 +37,9 @@ export default {
 
 <style scoped lang="scss">
 
-    @import '../../assets/style/roundedButton.scss';
-    @import '../../assets/style/colorPalette.scss';
-    @import '../../assets/style/common.scss';
+    @import '../../../assets/style/roundedButton.scss';
+    @import '../../../assets/style/colorPalette.scss';
+    @import '../../../assets/style/common.scss';
 
     .wrapper{
         width: 80%;

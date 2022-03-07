@@ -52,9 +52,9 @@ export default {
 
 <style scoped lang="scss">
 
-    @import "../../assets/style/colorPalette.scss";
-    @import "../../assets/style/roundedButton.scss";    
-    @import '../../assets/style/common.scss'; 
+    @import "../../../assets/style/colorPalette.scss";
+    @import "../../../assets/style/roundedButton.scss";    
+    @import '../../../assets/style/common.scss'; 
 
     .impact{
         height: 500px;
@@ -63,7 +63,7 @@ export default {
         .box-left{
             height: 100%;
             width: 35%;
-            background-image: url('../../assets/img/counters-bg-image.jpg');
+            background-image: url('../../../assets/img/counters-bg-image.jpg');
             background-size: cover;
             color: $White;
         }
