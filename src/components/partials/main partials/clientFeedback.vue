@@ -75,7 +75,7 @@ export default {
 
     
     .feedback{
-        height: 250px;
+        padding: 80px 0;
         background: $BlackHaze;
     }
 

@@ -4,7 +4,7 @@
             <section class="speciality d-flex flex-column align-items-center justify-content-center">
                 <h1 class="my-3">Speciality Services</h1>
                 <littleRule />
-                <p class="text-center my-4 par px-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae mollitia, eum explicabo dolore eaque nostrum iste recusandae. Dolore voluptas, sunt dolor nulla enim consequuntur tempore eaque, et ut, eligendi ipsum?</p>
+                <p class="text-center my-4 par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae mollitia, eum explicabo dolore eaque nostrum iste recusandae. Dolore voluptas, sunt dolor nulla enim consequuntur tempore eaque, et ut, eligendi ipsum?</p>
 
                 <div class="d-flex justify-content-center">
                     
@@ -12,7 +12,7 @@
                     v-for="(card, index) in cards" :key="index" 
                     :cardInfo="card"
                     />
-                    
+
                 </div>
             </section>
         </div>
@@ -75,15 +75,16 @@ export default {
         background-color: $BlackHaze;
 
         .wrapper{
+            padding: 80px 0;
             width: 70%;
             margin: auto;
 
             .speciality{
-                height: 650px;
 
                 .par{
                     font-size: 13px;   
-                    color: $gray;   
+                    color: $gray;  
+                    padding: 0 250px; 
                 }
                 
                 .single-card{

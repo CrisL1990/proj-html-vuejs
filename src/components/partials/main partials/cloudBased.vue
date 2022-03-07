@@ -47,7 +47,7 @@ export default {
 
         .cloud-cont{
         width: 100%;
-        height: 500px;
+        
         }
 
         p{
