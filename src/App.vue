@@ -3,19 +3,16 @@
 
     <!--Inizio Header-->
     <myHeader> 
-
     </myHeader>
     <!--Fine Header-->
 
     <!--Inizio Main-->
     <myMain>
-
     </myMain>
     <!--Fine Main-->
 
     <!--Inizio Footer-->
     <myFooter>
-
     </myFooter>
     <!--Fine Footer-->
 

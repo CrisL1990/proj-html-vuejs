@@ -15,6 +15,7 @@ export default {
 <style scoped lang="scss">
 
     @import "../../assets/style/colorPalette.scss";
+    @import '../../assets/style/common.scss';
 
     .jumbotron{
         background-image: url('../../assets/img/home_finance_slider_bg.jpg');

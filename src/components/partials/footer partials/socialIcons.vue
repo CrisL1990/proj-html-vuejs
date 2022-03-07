@@ -1,6 +1,6 @@
 <template>
     <div class="container d-flex justify-content-center align-items-center">
-        <i :class="icons.social"></i>
+        <a href="#"><i :class="icons.social"></i></a>    
     </div>
 </template>
 

@@ -15,7 +15,7 @@ export default {
 
     .rule{
         width: 80px;
-        border-bottom: solid #426ead 3px;
+        border-bottom: solid #426ead 2px;
     }
 
 </style>

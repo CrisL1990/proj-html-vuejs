@@ -53,10 +53,10 @@ export default {
 <style scoped lang="scss">
 
     @import "../../assets/style/colorPalette.scss";
-    @import "../../assets/style/roundedButton.scss";     
+    @import "../../assets/style/roundedButton.scss";    
+    @import '../../assets/style/common.scss'; 
 
     .impact{
-        width: 100%;
         height: 500px;
         
 

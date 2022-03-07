@@ -5,14 +5,14 @@
                 <img class="client-logo" :src="cards.logo" alt="Client logo">
             </div>
 
-            <p class="review text-center px-4 mb-5"> 
+            <p class="review text-center px-5 mb-5"> 
                 {{cards.text}}
             </p>
         </div>
                     
         <div class="client-name text-center">
-            <p class="name pt-3">{{cards.name}}</p>
-            <p class="role">{{cards.role}}</p>
+            <p class="name mt-3 py-3">{{cards.name}}</p>
+            <p class="role pb-3">{{cards.role}}</p>
         </div>
     </div>
     
@@ -31,6 +31,7 @@ export default {
 
 <style scoped lang="scss">
     @import '../../assets/style/colorPalette.scss';
+    @import '../../assets/style/common.scss';
 
     .client-logo{
         filter: brightness(0) invert(0);
@@ -39,6 +40,7 @@ export default {
     .review{
         font-size: 13px;
         color: $gray;
+        font-family: 'Frank Ruhl Libre', serif;
     }
 
     .client-name{

@@ -86,7 +86,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+    @import '../../../assets/style/common.scss';
     @import '../../../assets/style/colorPalette.scss';
 
     .footer-top{

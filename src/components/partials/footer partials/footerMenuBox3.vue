@@ -5,7 +5,7 @@
 
         <ul>
             <li>
-                <i :class="menu[2].icon"></i>
+               <a href="#"><i :class="menu[2].icon"></i></a> 
             </li>
         </ul>
 

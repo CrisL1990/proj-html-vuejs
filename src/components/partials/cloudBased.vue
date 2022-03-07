@@ -39,6 +39,7 @@ export default {
 
     @import '../../assets/style/roundedButton.scss';
     @import '../../assets/style/colorPalette.scss';
+    @import '../../assets/style/common.scss';
 
     .wrapper{
         width: 80%;

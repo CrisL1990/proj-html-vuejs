@@ -1,16 +1,9 @@
 <template>
     <section class="logoStrip row row-cols-6">
-
         <singleLogo v-for="(logo, index) in logos" :key="index" 
         class="col d-flex justify-content-center align-items-center h-100" 
         :logo="logo.filePath"
         />
-        <!--
-        <div class="col d-flex justify-content-center align-items-center h-100">
-            <img src="../../assets/img/client-logo-3-200x87.png" alt="">
-        </div>
-        -->
-
     </section>
 </template>
 
@@ -67,10 +60,12 @@ export default {
 
 <style scoped lang='scss'>
      @import "../../assets/style/colorPalette.scss";
+     @import '../../assets/style/common.scss';
 
     .logoStrip{
         height: 150px;
-        background-color: $BlackHaze
+        background-color: $BlackHaze;
+        width: 100%;
         
     }
 </style>
