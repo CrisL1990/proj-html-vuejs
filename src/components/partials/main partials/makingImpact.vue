@@ -7,59 +7,89 @@
             <button class="my-4"> <a href="#">LEARN MORE</a> </button>
         </div>
 
-        <div class="box-right">
+        <div class="box-right d-flex align-items-center justify-content-center">
 
-            <div class="row row-cols-2 pt-5">
+            <div class="percentage-container">
 
-                <div class="col box d-flex flex-column justify-content-center align-items-center">
+                <boxPercentage v-for="(statistic, index) in statistics" :key="index"
+                class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5"
+                :statistics="statistic"/>
+                <!--
+                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
                     <span>86%</span>
                     <p>Succesful Applications</p>
                 </div>
 
-                <div class="col box d-flex flex-column justify-content-center align-items-center">
+                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
                     <span>94%</span>
                     <p>Return On Investment</p>
                 </div>
 
-            </div>
-
-            <div class="row row-cols-2 pb-5">
-
-                <div class="col box d-flex flex-column justify-content-center align-items-center">
+                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
                     <span>92%</span>
                     <p>Applied Solutions</p>
                 </div>
 
-                <div class="col box d-flex flex-column justify-content-center align-items-center">
+                <div class="box d-flex flex-column justify-content-center align-items-center pe-5 pb-5">
                     <span>100%</span>
                     <p>Completely Secure</p>
-                </div>
-
+                </div>  
+                -->
             </div>
-
+        
         </div>
 
     </section>
 </template>
 
 <script>
-export default {
 
-    name:'makingImpact'
+    import boxPercentage from './boxPercentage.vue'
+    export default {
+        name:'makingImpact',
 
-}
+        components:{
+            boxPercentage
+        },
+
+        data(){
+
+            return{
+
+                statistics: [
+                    {
+                        percentage: "86%",
+                        text: "Succesful Applications"
+                    },
+
+                    {
+                        percentage: "94%",
+                        text: "Return On Investment"
+                    },
+
+                    {
+                        percentage: "92%",
+                        text: "Applied Solutions"
+                    },
+
+                    {
+                        percentage: "100%",
+                        text: "Completely Secure"
+                    },
+                ]
+            }
+        }
+    }
 </script>
 
 <style scoped lang="scss">
-
     @import "../../../assets/style/colorPalette.scss";
     @import "../../../assets/style/roundedButton.scss";    
     @import '../../../assets/style/common.scss'; 
-
+    
     .impact{
         height: 500px;
         
-
         .box-left{
             height: 100%;
             width: 35%;
@@ -67,25 +97,22 @@ export default {
             background-size: cover;
             color: $White;
         }
-
         .box-right{
             height: 100%;
             width: 60%;
+
+            .percentage-container::after{
+                content: "";
+                clear: both;
+                display: table;
+            }
             
-            .row{
-                height: 50%;
+                .box{
+                    height: 100%;
+                    width: 50%;
+                    float: left;
 
-                .col{
-
-                    span{
-                        color: $icon;
-                        font-size:50px;
-                    }
-
-                    p{
-                        font-size: 12px;
-                        color: $gray;
-                    }
+                    
                 }
             }
         }
@@ -99,12 +126,10 @@ export default {
             font-weight: bold;
             border: none;
             font-size: $button-font-zize;
-
             a{
                 text-decoration: none;
                 color: $White;
             }
         }
-    }
-
+    
 </style>
