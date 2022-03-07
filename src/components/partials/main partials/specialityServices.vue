@@ -2,7 +2,7 @@
     <div class="section-cont"> 
         <div class="wrapper">
             <section class="speciality d-flex flex-column align-items-center justify-content-center">
-                <h1 class="my-3">Speciality Services</h1>
+                <h1 class="my-3">Specialty Services</h1>
                 <littleRule />
                 <p class="text-center my-4 par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae mollitia, eum explicabo dolore eaque nostrum iste recusandae. Dolore voluptas, sunt dolor nulla enim consequuntur tempore eaque, et ut, eligendi ipsum?</p>
 
